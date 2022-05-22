@@ -1739,10 +1739,10 @@ regexpp@^3.2.0:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.2.0.tgz#0425a2768d8f23bad70ca4b90461fa2f1213e1b2"
   integrity sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==
 
-remult@^0.13.24:
-  version "0.13.24"
-  resolved "https://registry.yarnpkg.com/remult/-/remult-0.13.24.tgz#3fba4e246420fd90500a32cbf085fb7ea53f6f52"
-  integrity sha512-8E08uTpvAEl0g/xgb6bWn3tTu0jp3ewHqWwaxOMGThRHrw8bCvSNj+Tcmf2vmHGrz807BDMi4ELENcELbYBYFg==
+remult@^0.13.25:
+  version "0.13.25"
+  resolved "https://registry.yarnpkg.com/remult/-/remult-0.13.25.tgz#1dd76fc75fed864ef653f0ce4a514c48606b3676"
+  integrity sha512-qOFbJkM8XT+fqfQe+zF3TA+tfROMPWXdlPD2dwRU6BhWygFXR2SE7W1D0YqsbvXl1nbStcBYceMSwukdcpnXFw==
   dependencies:
     reflect-metadata "^0.1.13"
     tslib "^2.3.1"
