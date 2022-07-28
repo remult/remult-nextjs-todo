@@ -1,9 +1,30 @@
-import { NextApiRequest, NextApiResponse } from 'next'
-import * as util from 'util';
-import { api } from '../../src/server/api';
+import { BackendMethod, Entity, Fields, Validators } from 'remult';
+import { buildRemultServer } from 'remult/server';
 
-const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
-    await api.handle(_req, res);
+
+
+@Entity("tasks", {
+    allowApiCrud: true
+})
+export class Task {
+    @Fields.uuid()
+    id!: string;
+
+    @Fields.string({
+          validate: Validators.required 
+    })
+    title = '';
+
+    @Fields.boolean()
+    completed = false;
+    @BackendMethod({ allowed: false })
+    static testForbidden() {
+    }
 }
 
-export default handler
+export const api = buildRemultServer({
+    entities:[Task]
+});
+
+
+export default api.handle;

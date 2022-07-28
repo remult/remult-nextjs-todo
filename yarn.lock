@@ -1441,10 +1441,10 @@
   "resolved" "https://registry.npmjs.org/regexpp/-/regexpp-3.2.0.tgz"
   "version" "3.2.0"
 
-"remult@^0.14.29":
-  "integrity" "sha512-2XKA4BDPOFiVcI3Gd/lrCjd2bTKOoGwRCS/v+/Uo+6g7Naza67L33AIegmPsHvu9ekQQ8/QdvzHhRIFnA9JEzA=="
-  "resolved" "https://registry.npmjs.org/remult/-/remult-0.14.29.tgz"
-  "version" "0.14.29"
+"remult@^0.14.32":
+  "integrity" "sha512-VQyr+MMEtKp+AJBGDTBj3rIVvz01SDYNlPnrAK51I+Gfvn5AFvLGorl3jc5rlKK0cHt+trzKJOISTJ2Xa2F7vQ=="
+  "resolved" "https://registry.npmjs.org/remult/-/remult-0.14.32.tgz"
+  "version" "0.14.32"
   dependencies:
     "reflect-metadata" "^0.1.13"
     "tslib" "^2.3.1"
