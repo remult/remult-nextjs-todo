@@ -1,5 +1,3 @@
-import { remultExpress } from 'remult/remult-express';
+import { createRemultServer } from "remult/server";
 
-export const api = remultExpress({
-    bodyParser: false
-});
+export const api = createRemultServer({});
